@@ -288,20 +288,23 @@ margin-bottom: 30px;
 .socials {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   margin-top: 16px;
-}
-
-.socials-item {
-  width: 44px;
-  height: 44px;
 }
 
 .socials-item-link {
   color: var(--icon-color);
   background-color: transparent;
   border-radius: 50%;
+  display: block;
   padding: 12px;
+}
+
+.socials-item-link:hover,
+.socials-item-link:focus {
+  color: var(--light-color);
+  background-color: var(--brand-color);
 }
 
 footer {
